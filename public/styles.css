@@ -85,10 +85,12 @@
     margin: 10%;
     aspect-ratio: 1/1;
     margin-bottom: 180px;
-    height: 45%;
+    height: 43%;
 }
 
 .box {
+    margin: 0px; /* Adjust margin as needed to control spacing between boxes */
+    padding: 0px;    
     position: relative;
     width: 100%;
     aspect-ratio: 1/1;
