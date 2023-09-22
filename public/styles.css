@@ -31,7 +31,7 @@
 .winner-info {
     color: rgb(73, 33, 33);
     position: absolute;
-    bottom: 9rem;
+    bottom: 8rem;
     font-size: large;
     left: 55%;
     transform: translateX(-50%);
@@ -85,7 +85,7 @@
     margin: 10%;
     aspect-ratio: 1/1;
     margin-bottom: 180px;
-    height: 40%;
+    height: 45%;
 }
 
 .box {
