@@ -43,7 +43,7 @@
     width: 300px;
     display: none;
 }
-
+/* 
 .tic-tac-toe {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -55,6 +55,34 @@
     color: white;
     padding: 2rem;
     margin:10%;
+    aspect-ratio: 1/1;
+    margin-bottom: 180px;
+    height: 40%;
+} */
+
+/* .box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90%;
+    max-width: 20rem;
+    border: 2px solid white; /* Add a border around the entire grid */
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 2rem;
+    margin: 10%;
     aspect-ratio: 1/1;
     margin-bottom: 180px;
     height: 40%;
@@ -70,9 +98,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid white; /* Add a border to each box */
+    transition: background-color 0.3s; /* Add a smooth transition for background-color */
+}
+.box1, .box2, .box4, .box5 {
+    border-bottom: 2px solid white;
 }
 
-.box1,.box2,.box4,.box5 {
+.box1, .box3, .box4, .box7 {
+    border-right: 2px solid white;
+}
+/* .box1,.box2,.box4,.box5 {
     border-right: 2px solid white;
     border-bottom: 2px solid white;
 } 
@@ -83,7 +119,7 @@
 
 .box7,.box8 {
     border-right: 2px solid white;
-}
+} */
 
 .btn {
     color:rgb(73, 33, 33);
